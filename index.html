@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Подключаемся к Discord...</title>
+  <meta http-equiv="refresh" content="3; url=https://discord.gg/TWttCf2j5j" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #5865F2, #23272A);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .container {
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1em;
+      opacity: 0.85;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 25px;
+      background: white;
+      color: #5865F2;
+      border-radius: 25px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      background: #e3e3ff;
+      transform: translateY(-2px);
+    }
+
+    .discord-logo {
+      width: 90px;
+      margin-bottom: 20px;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.9; }
+      50% { transform: scale(1.1); opacity: 1; }
+    }
+  </style>
+  <script>
+    // Запасной редирект через JS, если meta не сработает
+    setTimeout(() => {
+      window.location.href = "https://discord.gg/TWttCf2j5j";
+    }, 3000);
+  </script>
+</head>
+<body>
+  <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Discord_logo.svg" class="discord-logo" alt="Discord" />
+    <h1>Переходим в Discord...</h1>
+    <p>Секунду, мы уже почти там 😄</p>
+    <a href="https://discord.gg/TWttCf2j5j">Перейти вручную</a>
+  </div>
+</body>
+
+</html>
