@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Переходим в Discord...</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #5865F2, #23272A);
+      color: white;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    a {
+      color: #5865F2;
+      background: white;
+      padding: 12px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+  <script>
+    // Сначала пробуем открыть приложение Discord
+    window.location.href = "discord://discord.com/invite/TWttCf2j5j";
+
+    // Если не сработало — через 2 секунды отправляем в браузерную версию
+    setTimeout(() => {
+      window.location.href = "https://discord.gg/TWttCf2j5j";
+    }, 2000);
+  </script>
+</head>
+<body>
+  <h1>Открываем Discord...</h1>
+  <p>Если ничего не происходит, нажми кнопку ниже 👇</p>
+  <a href="https://discord.gg/TWttCf2j5j">Перейти вручную</a>
+</body>
+</html>
