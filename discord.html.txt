@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Подключаемся к Discord...</title>
-  <meta http-equiv="refresh" content="3; url=https://discord.gg/ТВОЯ_ССЫЛКА" />
+  <meta http-equiv="refresh" content="3; url=https://discord.gg/TWttCf2j5j" />
   <style>
     * {
       margin: 0;
@@ -74,7 +74,7 @@
   <script>
     // Запасной редирект через JS, если meta не сработает
     setTimeout(() => {
-      window.location.href = "https://discord.gg/ТВОЯ_ССЫЛКА";
+      window.location.href = "https://discord.gg/TWttCf2j5j";
     }, 3000);
   </script>
 </head>
@@ -83,7 +83,8 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Discord_logo.svg" class="discord-logo" alt="Discord" />
     <h1>Переходим в Discord...</h1>
     <p>Секунду, мы уже почти там 😄</p>
-    <a href="https://discord.gg/ТВОЯ_ССЫЛКА">Перейти вручную</a>
+    <a href="https://discord.gg/TWttCf2j5j">Перейти вручную</a>
   </div>
 </body>
+
 </html>
